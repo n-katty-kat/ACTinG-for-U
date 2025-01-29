@@ -3,7 +3,7 @@
     <title>IxU Reflected</title>
     <link href="https://n-katty-kat.github.io/ixu-reflected/feed.xml" rel="self" />
     <link href="https://n-katty-kat.github.io/ixu-reflected" />
-    <updated>2025-01-29T12:04:49-08:00</updated>
+    <updated>2025-01-29T12:14:45-08:00</updated>
     <author>
         <name>Aleena Jett</name>
     </author>
@@ -14,20 +14,18 @@
         <author>
             <name>Aleena Jett</name>
         </author>
-        <link href="https://n-katty-kat.github.io/ixu-reflected/hihellow.html"/>
-        <id>https://n-katty-kat.github.io/ixu-reflected/hihellow.html</id>
+        <link href="https://n-katty-kat.github.io/ixu-reflected/ixu-reflected.html"/>
+        <id>https://n-katty-kat.github.io/ixu-reflected/ixu-reflected.html</id>
 
-        <updated>2025-01-29T11:39:04-08:00</updated>
+        <updated>2025-01-29T12:14:45-08:00</updated>
             <summary>
                 <![CDATA[
-                    IxU Reflected 2025
+                    IxU Reflected (I by You, You by I) is an emergent data visualization that combines an animated data visualization of the human genome with a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>IxU Reflected</p>
-<p>2025</p>
-<p> </p>
+                <p>IxU Reflected (I by You, You by I) is an emergent data visualization that combines an animated data visualization of the human genome with a responsive water environment that affects the data used.</p>
             ]]>
         </content>
     </entry>
