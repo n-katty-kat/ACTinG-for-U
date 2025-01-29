@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://n-katty-kat.github.io/ixu-reflected/reflected-in-context.html",
+            "url": "https://n-katty-kat.github.io/ixu-reflected/reflected-in-context.html",
+            "title": "Reflected in Context",
+            "summary": "IxU Reflected draws on a long history of data visualization, emergent systems, and responsive art. The guiding principles for the data visualization draw from the&hellip;",
+            "content_html": "<p>IxU Reflected draws on a long history of data visualization, emergent systems, and responsive art.</p>\n<p>The guiding principles for the data visualization draw from the writings of Lisa Jevbratt and Lev Manovich in exploring what is hidden in data and how visuals help to unveil it, but the approach taken here is one of visual abstraction intended to discover patterns and relate beyond the explicit or original data. While the human genome may be mapped in this visualization, the resulting visuals does not mean we must only see the patterns of the human genome, but rather we can find broader patterns of life and being that relate to ourselves and society too.</p>\n<p>Emergent systems and responsive art also have timeless appearances throughout net and art history. This particular project takes its heaviest aesthetic and technical influence from the works of Casey Reas and Ralf Baecker, but there is many <em>many</em> more artists who have worked in this field. For Reas, the idea of having particular rules with small random behaviors is a major influence to how to structure the water environment's behaviors in response to the variable sensory responses it has to the gallery environment. Additionally, the aesthetic of the data visualization draws on that simplicity of elements, of shape and line, in Reas' procedural works that is drawn upon to emphasize the visual outcome as it purely exists - as opposed to creating a known form. The sensory input response is also built upon the practices of Baecker with works like <em>Interface I</em> which utilizes ambient radiation to drive an emerging, ever-changing shape. The water environment also responds to its ambient environment in its inherently electrical existence, responding to all the electronics that make it up and surround it as a source of its creativity that adds to the blending of colors within its environment.</p>",
+            "author": {
+                "name": "Aleena Jett"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-01-29T12:41:30-08:00",
+            "date_modified": "2025-01-29T12:41:30-08:00"
+        },
+        {
             "id": "https://n-katty-kat.github.io/ixu-reflected/ixu-reflected.html",
             "url": "https://n-katty-kat.github.io/ixu-reflected/ixu-reflected.html",
             "title": "IxU Reflected",
