@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://n-katty-kat.github.io/ixu-reflected/sitemap.xml
