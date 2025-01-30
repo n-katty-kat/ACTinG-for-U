@@ -3,34 +3,12 @@
     <title>IxU Reflected</title>
     <link href="https://n-katty-kat.github.io/ixu-reflected/feed.xml" rel="self" />
     <link href="https://n-katty-kat.github.io/ixu-reflected" />
-    <updated>2025-01-29T12:41:30-08:00</updated>
+    <updated>2025-01-29T12:28:30-08:00</updated>
     <author>
         <name>Aleena Jett</name>
     </author>
     <id>https://n-katty-kat.github.io/ixu-reflected</id>
 
-    <entry>
-        <title>Reflected in Context</title>
-        <author>
-            <name>Aleena Jett</name>
-        </author>
-        <link href="https://n-katty-kat.github.io/ixu-reflected/reflected-in-context.html"/>
-        <id>https://n-katty-kat.github.io/ixu-reflected/reflected-in-context.html</id>
-
-        <updated>2025-01-29T12:41:30-08:00</updated>
-            <summary>
-                <![CDATA[
-                    IxU Reflected draws on a long history of data visualization, emergent systems, and responsive art. The guiding principles for the data visualization draw from the writings of Lisa Jevbratt and Lev Manovich in exploring what is hidden in data and how visuals help to unveil it, but the approach taken&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>IxU Reflected draws on a long history of data visualization, emergent systems, and responsive art.</p>
-<p>The guiding principles for the data visualization draw from the writings of Lisa Jevbratt and Lev Manovich in exploring what is hidden in data and how visuals help to unveil it, but the approach taken here is one of visual abstraction intended to discover patterns and relate beyond the explicit or original data. While the human genome may be mapped in this visualization, the resulting visuals does not mean we must only see the patterns of the human genome, but rather we can find broader patterns of life and being that relate to ourselves and society too.</p>
-<p>Emergent systems and responsive art also have timeless appearances throughout net and art history. This particular project takes its heaviest aesthetic and technical influence from the works of Casey Reas and Ralf Baecker, but there is many <em>many</em> more artists who have worked in this field. For Reas, the idea of having particular rules with small random behaviors is a major influence to how to structure the water environment's behaviors in response to the variable sensory responses it has to the gallery environment. Additionally, the aesthetic of the data visualization draws on that simplicity of elements, of shape and line, in Reas' procedural works that is drawn upon to emphasize the visual outcome as it purely exists - as opposed to creating a known form. The sensory input response is also built upon the practices of Baecker with works like <em>Interface I</em> which utilizes ambient radiation to drive an emerging, ever-changing shape. The water environment also responds to its ambient environment in its inherently electrical existence, responding to all the electronics that make it up and surround it as a source of its creativity that adds to the blending of colors within its environment.</p>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>IxU Reflected</title>
         <author>
@@ -42,7 +20,7 @@
         <updated>2025-01-29T12:14:45-08:00</updated>
             <summary>
                 <![CDATA[
-                    IxU Reflected (I by You, You by I) is an emergent data visualization that combines an animated data visualization of the human genome with a responsive water environment that affects the data used. The project arose out of an interest in how people respond to the external world and to&hellip;
+                    IxU Reflected (I by You, You by I) is an emergent data visualization that combines an animated data visualization of the human genome with a&hellip;
                 ]]>
             </summary>
         <content type="html">
