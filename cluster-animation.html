@@ -1,6 +1,166 @@
-<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cluster Animation - ACTing for U</title><meta name="description" content="Week 8 Preliminary animation of human genome uncharacterized proteins. Each frame is an individual sequence with the nucleotides mapped individually in color. (See code below) # from oneball.py (should also copy onto cluster) of VIS 141A import os import os.path import sys import pygame from&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://n-katty-kat.github.io/ACTinG-for-U/cluster-animation.html"><link rel="alternate" type="application/atom+xml" href="https://n-katty-kat.github.io/ACTinG-for-U/feed.xml" title="ACTing for U - RSS"><link rel="alternate" type="application/json" href="https://n-katty-kat.github.io/ACTinG-for-U/feed.json" title="ACTing for U - JSON"><meta property="og:title" content="Cluster Animation"><meta property="og:site_name" content="ACTing for U"><meta property="og:description" content="Week 8 Preliminary animation of human genome uncharacterized proteins. Each frame is an individual sequence with the nucleotides mapped individually in color. (See code below) # from oneball.py (should also copy onto cluster) of VIS 141A import os import os.path import sys import pygame from&hellip;"><meta property="og:url" content="https://n-katty-kat.github.io/ACTinG-for-U/cluster-animation.html"><meta property="og:type" content="article"><link rel="preload" href="https://n-katty-kat.github.io/ACTinG-for-U/assets/dynamic/fonts/robotoflex/robotoflex.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://n-katty-kat.github.io/ACTinG-for-U/assets/dynamic/fonts/robotoslab/robotoslab.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="https://n-katty-kat.github.io/ACTinG-for-U/assets/css/style.css?v=f6bdb60e55e38d9674e50e2698bccd14"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://n-katty-kat.github.io/ACTinG-for-U/cluster-animation.html"},"headline":"Cluster Animation","datePublished":"2025-02-03T16:29-08:00","dateModified":"2025-03-06T20:56-08:00","description":"Week 8 Preliminary animation of human genome uncharacterized proteins. Each frame is an individual sequence with the nucleotides mapped individually in color. (See code below) # from oneball.py (should also copy onto cluster) of VIS 141A import os import os.path import sys import pygame from&hellip;","author":{"@type":"Person","name":"AJ (n.kat)","url":"https://n-katty-kat.github.io/ACTinG-for-U/authors/n-kat/"},"publisher":{"@type":"Organization","name":"AJ (n.kat)"}}</script><noscript><style>img[loading] {
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cluster Animation - ACTing for U</title><meta name="description" content="Week 13 Sample gene sequence color generation. Sample gene sequence color generation. Planned order of animation for MPI and adjusting database directly. Test broadcasting lists with MPI. Output of broadcasting lists with MPI. def sequence_color(sequence): # generates the sequence color based on % of certain&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://n-katty-kat.github.io/ACTinG-for-U/cluster-animation.html"><link rel="alternate" type="application/atom+xml" href="https://n-katty-kat.github.io/ACTinG-for-U/feed.xml" title="ACTing for U - RSS"><link rel="alternate" type="application/json" href="https://n-katty-kat.github.io/ACTinG-for-U/feed.json" title="ACTing for U - JSON"><meta property="og:title" content="Cluster Animation"><meta property="og:site_name" content="ACTing for U"><meta property="og:description" content="Week 13 Sample gene sequence color generation. Sample gene sequence color generation. Planned order of animation for MPI and adjusting database directly. Test broadcasting lists with MPI. Output of broadcasting lists with MPI. def sequence_color(sequence): # generates the sequence color based on % of certain&hellip;"><meta property="og:url" content="https://n-katty-kat.github.io/ACTinG-for-U/cluster-animation.html"><meta property="og:type" content="article"><link rel="preload" href="https://n-katty-kat.github.io/ACTinG-for-U/assets/dynamic/fonts/robotoflex/robotoflex.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://n-katty-kat.github.io/ACTinG-for-U/assets/dynamic/fonts/robotoslab/robotoslab.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="https://n-katty-kat.github.io/ACTinG-for-U/assets/css/style.css?v=f6bdb60e55e38d9674e50e2698bccd14"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://n-katty-kat.github.io/ACTinG-for-U/cluster-animation.html"},"headline":"Cluster Animation","datePublished":"2025-02-03T16:29-08:00","dateModified":"2025-04-26T23:36-07:00","description":"Week 13 Sample gene sequence color generation. Sample gene sequence color generation. Planned order of animation for MPI and adjusting database directly. Test broadcasting lists with MPI. Output of broadcasting lists with MPI. def sequence_color(sequence): # generates the sequence color based on % of certain&hellip;","author":{"@type":"Person","name":"AJ (n.kat)","url":"https://n-katty-kat.github.io/ACTinG-for-U/authors/n-kat/"},"publisher":{"@type":"Organization","name":"AJ (n.kat)"}}</script><noscript><style>img[loading] {
                     opacity: 1;
-                }</style></noscript></head><body class="page-template"><header class="top js-header"><a class="logo" href="https://n-katty-kat.github.io/ACTinG-for-U/">ACTing for U</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://n-katty-kat.github.io/ACTinG-for-U/" target="_self">IxU Reflected</a></li><li class="active-parent has-submenu"><a href="https://n-katty-kat.github.io/ACTinG-for-U/progress.html" target="_self" aria-haspopup="true">Progress</a><ul class="navbar__submenu level-2" aria-hidden="true"><li><a href="https://n-katty-kat.github.io/ACTinG-for-U/water-environment.html" target="_self">Water Environment</a></li><li class="active"><a href="https://n-katty-kat.github.io/ACTinG-for-U/cluster-animation.html" target="_self">Cluster Animation</a></li></ul></li><li><a href="https://n-katty-kat.github.io/ACTinG-for-U/concept-and-lineage.html" target="_self">Concept and Lineage</a></li><li><a href="https://n-katty-kat.github.io/ACTinG-for-U/getting-technical.html" target="_self">Getting Technical</a></li><li><a href="https://n-katty-kat.github.io/ACTinG-for-U/about-me.html" target="_self">About Me</a></li></ul></nav></header><main class="page"><article class="content"><div class="hero hero--noimage"><header class="hero__content"><div class="wrapper"><h1>Cluster Animation</h1></div></header></div><div class="entry-wrapper content__entry"><div class="post__toc"><h3>Table of Contents</h3><ul><li><a href="#mcetoc_1ildb1k5glf">Week 8</a></li><li><a href="#mcetoc_1ildb1k5glg">Week 7</a></li><li><a href="#mcetoc_1ildb1k5glg">Week 5</a></li></ul></div><h3 id="mcetoc_1ildb1k5glf">Week 8</h3><p class="align-center"></p><div class="post__iframe"><iframe loading="lazy" width="697" height="392" style="width: 697px; height: 392px;" src="https://www.youtube.com/embed/_pPPqxlxh7g?si=Lr_UxUsH6KAmk8Pa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>Preliminary animation of human genome uncharacterized proteins. Each frame is an individual sequence with the nucleotides mapped individually in color. (See code below)<p></p><pre class="language-python"><code># from oneball.py (should also copy onto cluster) of VIS 141A
+                }</style></noscript></head><body class="page-template"><header class="top js-header"><a class="logo" href="https://n-katty-kat.github.io/ACTinG-for-U/">ACTing for U</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://n-katty-kat.github.io/ACTinG-for-U/" target="_self">IxU Reflected</a></li><li class="active-parent has-submenu"><a href="https://n-katty-kat.github.io/ACTinG-for-U/progress.html" target="_self" aria-haspopup="true">Progress</a><ul class="navbar__submenu level-2" aria-hidden="true"><li><a href="https://n-katty-kat.github.io/ACTinG-for-U/water-environment.html" target="_self">Water Environment</a></li><li class="active"><a href="https://n-katty-kat.github.io/ACTinG-for-U/cluster-animation.html" target="_self">Cluster Animation</a></li></ul></li><li><a href="https://n-katty-kat.github.io/ACTinG-for-U/concept-and-lineage.html" target="_self">Concept and Lineage</a></li><li><a href="https://n-katty-kat.github.io/ACTinG-for-U/getting-technical.html" target="_self">Getting Technical</a></li><li><a href="https://n-katty-kat.github.io/ACTinG-for-U/about-me.html" target="_self">About Me</a></li></ul></nav></header><main class="page"><article class="content"><div class="hero hero--noimage"><header class="hero__content"><div class="wrapper"><h1>Cluster Animation</h1></div></header></div><div class="entry-wrapper content__entry"><div class="post__toc"><h3>Table of Contents</h3><ul><li><a href="#mcetoc_1ipqkcu2p4s">Week 13</a></li><li><a href="#mcetoc_1ipqgrah84o">Week 12</a></li><li><a href="#mcetoc_1ipqc1fps41">Week 11</a></li><li><a href="#mcetoc_1ipqc1fps42">Week 9</a></li><li><a href="#mcetoc_1ildb1k5glf">Week 8</a></li><li><a href="#mcetoc_1ildb1k5glg">Week 7</a></li><li><a href="#mcetoc_1ildb1k5glg">Week 5</a></li></ul></div><h3 id="mcetoc_1ipqkcu2p4s">Week 13</h3><div class="gallery-wrapper"><div class="gallery" data-is-empty="false" data-translation="Add images" data-columns="3"><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-914.png" data-size="2400x1600"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-914-thumbnail.png" alt="" width="720" height="480"></a><figcaption>Sample gene sequence color generation.</figcaption></figure><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-915.png" data-size="2400x1600"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-915-thumbnail.png" alt="" width="720" height="480"></a><figcaption>Sample gene sequence color generation.</figcaption></figure><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-2025-04-20-172237.png" data-size="1641x761"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-2025-04-20-172237-thumbnail.png" alt="" width="720" height="334"></a><figcaption>Planned order of animation for MPI and adjusting database directly.</figcaption></figure><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-2025-04-20-163014.png" data-size="723x413"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-2025-04-20-163014-thumbnail.png" alt="" width="720" height="411"></a><figcaption>Test broadcasting lists with MPI.</figcaption></figure><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-2025-04-20-162948.png" data-size="1443x277"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-2025-04-20-162948-thumbnail.png" alt="" width="720" height="138"></a><figcaption>Output of broadcasting lists with MPI.</figcaption></figure></div></div><pre class="language-python"><code>def sequence_color(sequence):
+    # generates the sequence color based on % of certain nucleotides in the sequence
+    len_sequence = len(sequence)
+    red_count = 0
+    green_count = 0
+    blue_count = 0
+    for n in sequence:
+        if n == "A":
+            red_count += 6
+        elif n == "C":
+            green_count += 6
+        elif n == "G":
+            blue_count += 6
+        elif n == "T":
+            red_count += 2
+            green_count += 2
+            blue_count += 2
+        elif n == "M":
+            red_count += 3
+            blue_count += 3
+        elif n == "N": # cyaN (since c is already used by genome)
+            green_count += 3
+            blue_count += 3
+        elif n == "Y":
+            red_count += 3
+            green_count += 3
+        else:
+            pass # not one of the bases, could be U? otherwise an error
+    # count of each nucleotide is worth 6 total so need to scale up sequence to 6 to get proper percentage i think..
+        # percentage of each color to be part of the RGB color of the overall sequence
+    red_per = red_count / (len_sequence*6)
+    green_per = green_count / (len_sequence*6)
+    blue_per = blue_count / (len_sequence*6)
+    # print(red_per, green_per, blue_per)
+
+    # actual color
+    red_val = 255*red_per //1
+    green_val = 255*green_per //1
+    blue_val = 255*blue_per //1
+
+    # return color
+    # print(red_val, green_val, blue_val)
+    return (red_val, green_val, blue_val)</code></pre><h3 id="mcetoc_1ipqgrah84o">Week 12</h3><div class="gallery-wrapper"><div class="gallery" data-is-empty="false" data-translation="Add images" data-columns="3"><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/p1.jpg" data-size="3668x2826"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/p1-thumbnail.jpg" alt="" width="720" height="555"></a><figcaption>Notes on new animation visuals page 1.</figcaption></figure><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/p2.jpg" data-size="3483x2722"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/p2-thumbnail.jpg" alt="" width="720" height="563"></a><figcaption>Notes on total number of pixels and number of sequences in data page 2.</figcaption></figure><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/p3.jpg" data-size="3521x2714"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/p3-thumbnail.jpg" alt="" width="720" height="555"></a><figcaption>Notes on gridding screen space for individual gene sequences page 3.</figcaption></figure><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/p4.jpg" data-size="3613x2784"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/p4-thumbnail.jpg" alt="" width="720" height="555"></a><figcaption>Notes on new animation visuals page 4.</figcaption></figure><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/p5.jpg" data-size="3380x2645"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/p5-thumbnail.jpg" alt="" width="720" height="563"></a><figcaption>Notes on new visual mappings for each gene page 5.</figcaption></figure></div></div><p>Concept notes on new animation visuals.</p><h3 id="mcetoc_1ipqc1fps41">Week 11</h3><p>Using PySerial to communicate Arduino's sensor data to Raspberry Pi program.</p><ul><li>Reference for PySerial: <a>https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/</a></li></ul><p>Confirming that BufferedOutput library can be used to send data across serial port in place of Serial (Run PySerial program from roboticsbackend):</p><pre class="language-cpp"><code>// from SafeString V3 library https://www.forward.com.au/pfod/ArduinoProgramming/TimingDelaysInArduino.html#examples
+#include "loopTimer.h"
+#include "millisDelay.h"
+#include "BufferedOutput.h"
+createBufferedOutput(bufferedOut, 80, DROP_UNTIL_EMPTY);
+millisDelay printOutTimer;
+
+void setup() {
+  Serial.begin(9600);
+  bufferedOut.connect(Serial);
+  printOutTimer.start(5000); // every 5 sec
+}
+
+void loop() {
+  bufferedOut.nextByteOut();
+  if(printOutTimer.justFinished()){ // print out the millis every 5 seconds
+    printOutTimer.repeat();
+    bufferedOut.println(millis());
+  }
+}</code></pre><p>Send Arduino sensor data (through the global behavior variables) to the Raspberry Pi in the main code (snippet) [Removed extreme cases created in Week 10 due to errors making it impossible to properly test PySerial otherwise, see Week 10 Water Environment notes]:</p><pre class="language-cpp"><code>void printData(){
+  if(printOutTimer.justFinished()){
+    printOutTimer.repeat();
+    bufferedOut.print(socialize);
+    bufferedOut.print(",");
+    bufferedOut.print(hydrate);
+    bufferedOut.print(",");
+    bufferedOut.print(create);
+    bufferedOut.print(",");
+    bufferedOut.println();
+  }
+}</code></pre><div class="gallery-wrapper"><div class="gallery" data-is-empty="false" data-translation="Add images" data-columns="3"><figure class="gallery__item"><a href="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-2025-04-02-154537.png" data-size="320x577"><img loading="lazy" src="https://n-katty-kat.github.io/ACTinG-for-U/media/posts/13/gallery/Screenshot-2025-04-02-154537-thumbnail.png" alt="" width="320" height="577"></a><figcaption>Serial output.</figcaption></figure></div></div><p> </p><h3 id="mcetoc_1ipqc1fps42">Week 9</h3><p class="align-center"></p><div class="post__iframe"><iframe loading="lazy" width="697" height="392" style="width: 697px; height: 392px;" src="https://www.youtube.com/embed/1j-5xVTHgHQ?si=qx4U733GNq7ozzXP&amp;start=75" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>WIP Genome Animation on 8-screen cluster set up<p></p><pre class="language-python"><code>import os
+import os.path
+import sys
+import pygame
+from pygame.locals import *
+import time
+import random
+from mpi4py import MPI
+import math
+import sqlite3
+
+comm = MPI.COMM_WORLD
+rank = comm.Get_rank()
+size = comm.Get_size()
+
+# set window position
+os.environ['SDL_VIDEO_WINDOW_POS'] = "0,0"
+# get this display
+#print(dict(os.environ))
+os.environ['DISPLAY'] = ':0.0'
+# with caffeine installed (sudo apt install caffeine) we can wake the screen
+# os.system('caffeinate sleep 1') # passes caffeinate out to shell to wake screensaver
+
+# init clock and display
+clock = pygame.time.Clock()
+pygame.display.init()
+pygame.mouse.set_visible(False)
+
+# get the screen hight and width
+disp_info = pygame.display.Info()
+width = disp_info.current_w
+height = disp_info.current_h
+screen_size = (width,height) # adjust screen size manually is monitor is not the same dimensions as the main monitor
+universe_size = (width*2, height*2)
+screen = pygame.display.set_mode((screen_size), pygame.FULLSCREEN)
+
+connection = sqlite3.connect('genome_human.db') # change to full path name?
+cursor = connection.cursor()
+
+cursor.execute("SELECT sequence FROM genome_human WHERE protein LIKE '%uncharacterized%'")
+# SELECT * will return [(gene, protein, sequence),...]
+    # () &lt;- tuple so even if 1 its still (value,) at least
+    # obtain thru tuple indexing: seq1 = var[0][0] (1st list item, index 0 of tuple)
+var1 = cursor.fetchall()
+connection.close()
+
+def nucleotide_color(nucleotide):
+    if nucleotide == "A":
+        return (255,0,0) #red
+    elif nucleotide == "C":
+        return (0,255,0) #green
+    elif nucleotide == "T":
+        return (0,0,255) #blue
+    elif nucleotide == "G":
+        return (100,0,255) #purple?
+    else:
+        return (0,0,0)
+
+def sine_wave(shift,sequence):
+    len_sequence = len(sequence)
+    for i in range(height):
+        # sine transformations -&gt; bsin(ax-w)+h (b increases amplitude, a gives inverse frequency increase, w shifts horizontally, h shifts vertically)
+        # pygame.draw.line(screen,(50,100,255),(0,i),((width/2)+((width/2)*math.sin((height/4)*(i-shift))),i))
+            # moves down the screen
+        # pygame.draw.line(screen,(50,100,255),(0,i),((width/2)+((width/2)*math.sin((height/4)*i)),i))
+            # this (width/2)+((width/2)*math.sin((height/4)*i)) did NOT do what i expected at all but its GORGEOUS
+        if i &gt;= len_sequence:
+            pygame.draw.line(screen,(255,255,255),(0,i),(int((width/2)+((width/2)*math.sin((height/4)*i))),i))
+        else:
+            pygame.draw.line(screen,nucleotide_color(sequence[i]),(0,i),(int((width/2)+((width/2)*math.sin((height/4)*i))),i))
+    return
+
+framerate = 30
+runtime = 10 #seconds
+protein_index = 0
+# time to run
+# timeToRun = framerate*runtime
+timeToRun = len(var1)
+
+for f in range(timeToRun):
+    # screen.fill((50,30,255))
+    screen.fill((0,0,0))
+    sine_wave(f,var1[protein_index][0]) #shift later to go thru each sequence, this would be per frame but i could try other methods later
+    protein_index = protein_index + 1
+    if protein_index &gt; len(var1):
+        protein_index = 0
+    comm.Barrier()
+    pygame.display.update()
+    clock.tick(framerate)</code></pre><h3 id="mcetoc_1ildb1k5glf">Week 8</h3><p class="align-center"></p><div class="post__iframe"><iframe loading="lazy" width="697" height="392" style="width: 697px; height: 392px;" src="https://www.youtube.com/embed/_pPPqxlxh7g?si=Lr_UxUsH6KAmk8Pa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>Preliminary animation of human genome uncharacterized proteins. Each frame is an individual sequence with the nucleotides mapped individually in color. (See code below)<p></p><pre class="language-python"><code># from oneball.py (should also copy onto cluster) of VIS 141A
 import os
 import os.path
 import sys
